@@ -6,7 +6,7 @@ BoomCast sends the PC's sound to HomePod and other AirPlay 2 speakers over your 
 
 **[Download BoomCast.exe](https://github.com/Lorenzo8484/BoomCast/releases/latest)** · [User guide](docs/guide.md) · *Italiano: [README.it.md](README.it.md)*
 
-![BoomCast: the Speakers page with three HomePods](docs/img/speakers.jpg)
+![BoomCast: the Speakers page with three HomePods](docs/img/speakers.png)
 
 > BoomCast is an independent project. It is not affiliated with, endorsed by or approved by Apple. AirPlay, HomePod, HomeKit and iPhone are trademarks of Apple Inc.
 
@@ -33,7 +33,7 @@ The column on the left shows what is going on: how many speakers are playing, th
 
 ## Sound
 
-![BoomCast: the Sound page with equaliser and level meters](docs/img/sound.jpg)
+![BoomCast: the Sound page with equaliser and level meters](docs/img/sound.png)
 
 - **Sound modes.** Nine built in: Flat, Bass+, Voice, Movie, Music, Night, Game, Spatial, Concert.
 - **Each mode remembers you.** Move a slider while a mode is on and the change stays with that mode, also after a restart. An orange dot marks the modes you have changed; **Reset** puts the active one back to its original settings without touching the others.
@@ -45,7 +45,7 @@ The column on the left shows what is going on: how many speakers are playing, th
 
 ## Settings
 
-![BoomCast: the Settings page](docs/img/settings.jpg)
+![BoomCast: the Settings page](docs/img/settings.png)
 
 - **Delay** with four presets: *Instant* (0.15 s), *Game*, *Video*, *Music*, or any value with the slider.
 - **Audio to stream:** the default Windows output or a specific one.

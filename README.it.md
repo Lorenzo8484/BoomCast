@@ -6,7 +6,7 @@ BoomCast manda l'audio del PC a HomePod e altri altoparlanti AirPlay 2 attravers
 
 **[Scarica BoomCast.exe](https://github.com/Lorenzo8484/BoomCast/releases/latest)** · [Guida](docs/guida.it.md) · *English: [README.md](README.md)*
 
-![BoomCast: la pagina Altoparlanti con tre HomePod](docs/img/speakers.jpg)
+![BoomCast: la pagina Altoparlanti con tre HomePod](docs/img/speakers.png)
 
 *Le immagini mostrano l'app in inglese; la lingua si sceglie nelle impostazioni.*
 
@@ -35,7 +35,7 @@ La colonna a sinistra mostra cosa sta succedendo: quanti altoparlanti suonano, i
 
 ## Suono
 
-![BoomCast: la pagina Suono con equalizzatore e misuratori](docs/img/sound.jpg)
+![BoomCast: la pagina Suono con equalizzatore e misuratori](docs/img/sound.png)
 
 - **Modalità audio.** Nove di serie: Neutro, Bassi+, Voce, Film, Musica, Notte, Gioco, Spaziale, Concerto.
 - **Ogni modalità si ricorda di te.** Sposti uno slider mentre una modalità è attiva e la modifica resta sua, anche dopo il riavvio. Un puntino arancione segna quelle modificate; **Azzera** riporta quella attiva alla regolazione originale senza toccare le altre.
@@ -47,7 +47,7 @@ La colonna a sinistra mostra cosa sta succedendo: quanti altoparlanti suonano, i
 
 ## Impostazioni
 
-![BoomCast: la pagina Impostazioni](docs/img/settings.jpg)
+![BoomCast: la pagina Impostazioni](docs/img/settings.png)
 
 - **Ritardo** con quattro valori pronti: *Istante* (0,15 s), *Gioco*, *Video*, *Musica*, oppure quello che vuoi con lo slider.
 - **Audio da trasmettere:** l'uscita predefinita di Windows o una specifica.
