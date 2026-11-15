@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.11
+
+Fixes found in a full review of 0.10. No new features.
+
+- The app could close by itself when the tray panel was taller than the screen (many speakers on a small display).
+- Saving a sound mode while another one was active could attach later changes to the wrong mode.
+- A sound mode you saved no longer switches the audio enhancements off or changes balance, limiter and dithering: it holds only its own sound.
+- A speaker lent to a phone is no longer taken back while the phone is still playing if it briefly drops off the network.
+- Switching a speaker on, off and on again quickly now ends with it on.
+- A slider being held is no longer moved back by an update from the app; the speaker list keeps updating after a click on a volume slider.
+- Settings are saved safely: a crash while saving can no longer reset them.
+- The page title follows the language when it is changed; status values are no longer cut off in languages with long words.
+- The tray panel no longer reopens when right-clicking the icon to close it.
+
 ## 0.10
 
 First public version.
