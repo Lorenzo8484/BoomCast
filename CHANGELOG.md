@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0
+## 0.10
 
 First public version.
 
