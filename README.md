@@ -77,7 +77,7 @@ Every setting explained and a troubleshooting list: **[User guide](docs/guide.md
 
 - **Dropouts on Wi-Fi.** With a very low delay a packet lost on Wi-Fi cannot be recovered in time and you hear a click. If it happens, raise the delay and keep ALAC compression on.
 - **Translations** were produced automatically and have not been reviewed by native speakers. The log is in Italian.
-- **Privacy.** BoomCast talks only to the speakers on your local network. It collects nothing and sends nothing to the Internet. Settings stay on your PC, in `%APPDATA%\BoomCast`.
+- **Privacy.** BoomCast talks only to the speakers on your local network. It collects nothing and sends nothing to the Internet. Settings stay on your PC, in `%APPDATA%\BoomCast` ([what is saved and where](docs/guide.md#where-the-data-is)).
 - BoomCast speaks AirPlay 2 without Apple's involvement, so a future update of the speaker's software may stop it from working until BoomCast is updated.
 - The pictures on this page use made-up speaker names and addresses.
 

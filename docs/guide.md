@@ -66,4 +66,24 @@ If that does not solve it, open an issue in the **Issues** section and attach th
 
 ## Where the data is
 
-Settings and the log are in `%APPDATA%\BoomCast`. To start from scratch, close BoomCast and delete that folder. To remove BoomCast, delete `BoomCast.exe` and, if you like, that folder.
+BoomCast is a single file and installs nothing. Everything it writes goes into one folder of your Windows user account:
+
+`%APPDATA%\BoomCast` — that is `C:\Users\<your name>\AppData\Roaming\BoomCast`. To open it, press Win+R, type `%APPDATA%\BoomCast` and press Enter. Each Windows user of the PC has their own.
+
+| File or folder | What it holds |
+|---|---|
+| `settings.json` | Every setting: speakers you switched on, their volume, extra delay and phone options, the delay, the audio output, your sound modes, the changes you made to each mode, their order, language, theme, window size. Written at every change. |
+| `boomcast.log` | The log shown in *Settings → Log*. It is trimmed by itself when it passes 1 MB. |
+| `webview` (folder) | Working files of the Windows component that draws the interface (cache). Safe to delete while BoomCast is closed. |
+| `debug.log`, `probe.log` | Only present if diagnostics were run. |
+
+Outside that folder BoomCast leaves two things, both created only when you ask for them:
+
+- **Start with Windows** adds the value `BoomCast` under the registry key `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run`. Switching the option off removes it.
+- **Allow in firewall** adds a Windows Firewall inbound rule named `BoomCast` for the exe. Remove it from *Windows Security → Firewall → Advanced settings → Inbound Rules*.
+
+Nothing is stored online, and nothing leaves your PC except the audio sent to your speakers.
+
+- **Back up or move to another PC:** copy `settings.json` into the same folder on the other PC.
+- **Start from scratch:** close BoomCast and delete the folder.
+- **Remove BoomCast:** switch off *Start with Windows*, close it, delete `BoomCast.exe` and the folder; remove the firewall rule if you added it.

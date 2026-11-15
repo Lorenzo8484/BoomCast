@@ -79,7 +79,7 @@ Ogni impostazione spiegata e un elenco di soluzioni ai problemi: **[Guida](docs/
 
 - **Scatti sul Wi-Fi.** Con un ritardo molto basso un pacchetto perso sul Wi-Fi non si recupera in tempo e si sente uno scatto. Se succede, alza il ritardo e tieni accesa la compressione ALAC.
 - **Le traduzioni** sono automatiche e non sono state riviste da madrelingua. Il log è in italiano.
-- **Privacy.** BoomCast parla solo con gli altoparlanti della tua rete locale. Non raccoglie niente e non manda niente su Internet. Le impostazioni restano sul tuo PC, in `%APPDATA%\BoomCast`.
+- **Privacy.** BoomCast parla solo con gli altoparlanti della tua rete locale. Non raccoglie niente e non manda niente su Internet. Le impostazioni restano sul tuo PC, in `%APPDATA%\BoomCast` ([cosa viene salvato e dove](docs/guida.it.md#dove-stanno-i-dati)).
 - BoomCast usa AirPlay 2 senza il coinvolgimento di Apple, quindi un futuro aggiornamento del software dell'altoparlante può farlo smettere di funzionare finché BoomCast non viene aggiornato.
 - Nelle immagini di questa pagina nomi e indirizzi degli altoparlanti sono inventati.
 

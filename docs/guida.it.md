@@ -66,4 +66,24 @@ Se non si risolve, apri una segnalazione nella sezione **Issues** allegando il t
 
 ## Dove stanno i dati
 
-Impostazioni e log sono in `%APPDATA%\BoomCast`. Per ripartire da zero chiudi BoomCast ed elimina quella cartella. Per rimuovere BoomCast basta eliminare `BoomCast.exe` e, se vuoi, quella cartella.
+BoomCast è un file solo e non installa niente. Tutto quello che scrive finisce in una cartella del tuo utente Windows:
+
+`%APPDATA%\BoomCast` — cioè `C:\Users\<il tuo nome>\AppData\Roaming\BoomCast`. Per aprirla premi Win+R, scrivi `%APPDATA%\BoomCast` e premi Invio. Ogni utente Windows del PC ha la sua.
+
+| File o cartella | Cosa contiene |
+|---|---|
+| `settings.json` | Tutte le impostazioni: altoparlanti accesi, loro volume, ritardo extra e opzioni per il telefono, il ritardo, l'uscita audio, le tue modalità audio, le modifiche fatte a ogni modalità, il loro ordine, lingua, tema, grandezza della finestra. Viene scritto a ogni modifica. |
+| `boomcast.log` | Il registro che vedi in *Impostazioni → Log*. Si accorcia da solo quando supera 1 MB. |
+| `webview` (cartella) | File di lavoro del componente di Windows che disegna l'interfaccia (cache). Si può eliminare a BoomCast chiusa. |
+| `debug.log`, `probe.log` | Presenti solo se sono state fatte prove di diagnosi. |
+
+Fuori da quella cartella BoomCast lascia due cose, entrambe create solo quando le chiedi tu:
+
+- **Avvia con Windows** aggiunge il valore `BoomCast` nella chiave di registro `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run`. Spegnendo l'opzione viene tolto.
+- **Consenti nel firewall** aggiunge al firewall di Windows una regola in ingresso chiamata `BoomCast` per l'eseguibile. Si toglie da *Sicurezza di Windows → Firewall → Impostazioni avanzate → Regole connessioni in entrata*.
+
+Niente viene salvato online, e dal PC non esce niente tranne l'audio mandato ai tuoi altoparlanti.
+
+- **Copia di sicurezza o passaggio a un altro PC:** copia `settings.json` nella stessa cartella dell'altro PC.
+- **Ripartire da zero:** chiudi BoomCast ed elimina la cartella.
+- **Rimuovere BoomCast:** spegni *Avvia con Windows*, chiudila, elimina `BoomCast.exe` e la cartella; togli la regola del firewall se l'avevi aggiunta.
